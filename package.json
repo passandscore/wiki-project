@@ -1,0 +1,42 @@
+{
+  "name": "wiki-project",
+  "version": "1.0.0",
+  "description": "Kingsland Mod 5 - Final Project",
+  "main": "app.js",
+  "engines": {
+  "node":"v14.17.0",
+  "npm":"6.14.13"
+  },  
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.4.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.0",
+    "json2csv": "^5.0.6",
+    "mongoose": "^5.12.14",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.2",
+    "uniqid": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passandscore/wiki-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/passandscore/wiki-project/issues"
+  },
+  "homepage": "https://github.com/passandscore/wiki-project#readme"
+}

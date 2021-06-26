@@ -1,0 +1,22 @@
+
+<main>
+    {{>notifications}}
+    <div class="container">
+    <div class=" row align-items-center">
+        <h2 class=" {{#if owner}}col-9{{else}}col-12{{/if}} rounded">{{title}}</h2>
+            {{#if isAuthenticated}}
+            {{#if owner}}
+            <div class="btn-group col-3 p-1 mr-2" role="group">
+            <a class="btn btn-secondary" href="/create/{{id}}">Edit</a>
+            <a  class="btn btn-secondary" href="/delete/{{id}}">Delete</a>
+            </div>
+            {{/if}}
+            {{/if}}
+        
+        <article>
+            <p class="article-desc">{{description}}</p>
+        </article>
+    </div>
+    </div>
+</main> 
+

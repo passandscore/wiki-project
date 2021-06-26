@@ -1,0 +1,18 @@
+
+<main class="pt-0">
+    <section>
+        <h2 class="m-0 mb-1 rounded text-center">{{#if editMode}}Edit article{{else}}Create new article{{/if}}</h2>
+        {{>notifications}}
+        <div class="spacer">
+            <form action="/create" method="POST">
+                <label class="mt-0">Article title</label>
+                <input type="text" class="title " name="title" value="{{title}}">
+                <label>Content</label>
+                <textarea name="description">{{description}}</textarea>
+                <input type="submit" value="{{#if editMode}}Edit{{else}}Submit{{/if}}">
+                <input type="hidden"  name="id" value="{{articleId}}">
+            </form>
+        </div>
+    </section>
+</main>
+        

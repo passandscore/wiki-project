@@ -1,0 +1,16 @@
+
+<main>
+<section class="bg-white">
+    <h2 class="m-0 mb-1 rounded text-center">Login</h2>
+    {{>notifications}}
+    <div class="spacer d-flex justify-content-center">
+        <form action="/login" method="POST">
+            <label>Username:</label>
+            <input type="text" name="username">
+            <label>Password:</label>
+            <input type="password" name="password">
+            <input class="mx-auto" type="submit" value="Login">
+        </form>
+    </div>
+</section>
+</main>

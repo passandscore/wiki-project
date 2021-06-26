@@ -1,0 +1,18 @@
+
+<main>
+    <section>
+        <h2 class="m-0 mb-1 rounded text-center">Register</h2>
+        {{>notifications}}
+            <div class="spacer d-flex justify-content-center">
+                <form action="/register" method="POST">
+                    <label>Username:</label>
+                    <input type="text" name="username">
+                    <label>Password:</label>
+                    <input type="password" name="password">
+                    <label>Repeat password:</label>
+                    <input type="password" name="repeatPassword">
+                    <input class="mx-auto" type="submit" value="Register">
+                </form>
+            </div>
+    </section>
+</main>

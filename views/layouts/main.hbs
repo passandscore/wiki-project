@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+    <title>{{docTitle}}</title>
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+        />
+  <link href="/css/site.css" type="text/css" rel="stylesheet">
+   <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  {{!-- <link rel='shortcut icon' type='image/x-icon' href='/img/favicon.png' /> --}}
+</head>
+
+<body class="img-fluid w-100 h-100">
+  <div>
+    <div id="container">
+      <div class="row top bottom">
+        <div class="col-md-4 menu">{{>menu}}</div>
+        <div class="col-md-8 title-msg top bottom">
+          <div class="row">
+            <div class="col-md-12 top"><header>{{>header}}</header></div>
+          </div>
+        <h1 class="rounded display-4 text-center">KingUni Wiki!</h1>
+        <div class="row">
+          <div class="col-md-12 main-content">{{{body}}}</main></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 bottom"><footer>{{>footer}}</footer></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+

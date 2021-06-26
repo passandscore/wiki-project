@@ -1,0 +1,9 @@
+<header>
+  {{#unless isAuthenticated}}
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+  {{else}}
+    <span class="m-0">Welcome, {{username}}!</span>
+    <a class="badge badge-secondary p-1" href="/logout">LOGOUT</a>
+  {{/unless}}
+</header>
