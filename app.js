@@ -13,7 +13,7 @@ const path = require('path');
 
 
 //Remote files
-const dbURI = config.get("mongoUri");
+const dbURI = config.get("MONGO_URI");
 const PORT = config.get("PORT") || 3000;
 const articleRoutes = require("./routes/articles");
 const authRoutes = require("./routes/auth");
