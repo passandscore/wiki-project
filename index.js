@@ -1,5 +1,4 @@
 //Dependancies
-const config = require("config");
 const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
@@ -13,13 +12,14 @@ const path = require('path');
 
 
 //Remote files
-const dbURI = config.get("MONGO_URI");
-const PORT = config.get("PORT") || 3000;
 const articleRoutes = require("./routes/articles");
 const authRoutes = require("./routes/auth");
 const User = require('./models/User');
 const accessLogStream = fs.createWriteStream(path.join(__dirname, 'logs.log'),{flags:'a'});
 
+const env = process.env.NODE_ENV || 'development';
+const PORT = process.env.PORT || 3000;
+const dbURI= `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@test.qbf7a.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
 
 //express app
 const app = express();
