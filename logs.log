@@ -339,3 +339,7 @@
 [0mGET /favicon.ico [32m200[0m 2.502 ms - 1826[0m
 [0mGET / [36m304[0m 111.654 ms - -[0m
 [0mGET /favicon.ico [36m304[0m 5.442 ms - -[0m
+[0mGET / [32m200[0m 73.748 ms - 2205[0m
+[0mGET /favicon.ico [32m200[0m 4.844 ms - 1826[0m
+[0mGET / [36m304[0m 70.701 ms - -[0m
+[0mGET /favicon.ico [32m200[0m 4.702 ms - 1826[0m
