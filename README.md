@@ -16,7 +16,7 @@ Implemented a CRUD based Web application (SPA) that stores text based articles. 
 
 - [Javascript](https://www.javascript.com/)
 - [Express](https://expressjs.com/)
-- [EJS](https://ejs.co/)
+- [Handlebars](https://handlebarsjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [NodeJS](https://nodejs.dev/)
 
