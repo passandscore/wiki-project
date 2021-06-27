@@ -13,7 +13,7 @@ Implemented a CRUD based Web application (SPA) that stores text based articles. 
 
 
 ## What I learned 
-I was able to take my knowlegde of CRUD applications and replicate a wiki page. This time around I found that I had minor challanges. Bootstrap and CSS would be the main hurdle that comes to mind, although I am fairly happy with how it turned out. One day I will be a CSS pro, just wait for it. I was able to expand on Express with the utilization of Express-Session and Connect-Flash. These dependancies made the server-side validation process very smooth and I highly recommend them (see below). Futhermore, with Express-Validator I was able to streamline the error handling process with centralization. This may very well be the way I continue to handle errors with Express in the future. If I were to expand on this application I would start by introducing images.
+I was able to take my knowlegde of CRUD applications and replicate a wiki page. This time around I found that I had minor challenges. Bootstrap and CSS would be the main hurdles that come to mind, although I am fairly happy with how it turned out. One day I will be a CSS pro, just wait for it. I was able to expand on Express with the utilization of Express-Session and Connect-Flash. These dependancies made the server-side validation process very smooth and I highly recommend them (see below). Futhermore, with Express-Validator I was able to streamline the error handling process with centralization. This may very well be the way I continue to handle errors with Express in the future. If I were to expand on this application I would start by introducing images.
 
 ### Built With
 
