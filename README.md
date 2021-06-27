@@ -1,24 +1,33 @@
-# CodeWiki Single Page (CRUD) Application
+# Wiki - Single Page (CRUD) Application
 
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
 
 <p align=”center”>
 <img src="images/readme-cover.png" alt="Logo" width="800" height="600">
 </p>
 
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
 
 Implemented a CRUD based Web application (SPA) that stores text based articles. If you are a guest user, then you are limited to view only access. User features include registration, login, logout, create, read, update and delete. All user authentication is handled on the server-side.
 
+
+## What I learned 
+I was able to take my knowlegde of CRUD applications and replicate a wiki page. This time around I found that I had minor challanges. Bootstrap and CSS would be the main hurdle that comes to mind, although I am fairly happy with how it turned out. One day I will be a CSS pro, just wait for it. I was able to expand on Express with the utilization of Express-Session and Connect-Flash. These dependancies made the server-side validation process very smooth and I highly recommend them (see below). Futhermore, with Express-Validator I was able to streamline the error handling process with centralization. This may very well be the way I continue to handle errors with Express in the future. If I were to expand on this application I would start by introducing images.
 
 ### Built With
 
 - [Javascript](https://www.javascript.com/)
 - [Express](https://expressjs.com/)
+- [Bootstrap](https://getbootstrap.com/)
 - [Handlebars](https://handlebarsjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [NodeJS](https://nodejs.dev/)
+
+### Recommended Dependanices
+- [Express-Session](https://www.npmjs.com/package/express-session)
+- [Connect-Flash](https://www.npmjs.com/package/connect-flash)
+- [Express-Validator](https://express-validator.github.io/docs/)
 
 <!-- GETTING STARTED -->
 
@@ -64,6 +73,6 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Contact
 
-Your Name - [Jason Schwarz | LinkedIn](https://www.linkedin.com/in/jason-schwarz-75b91482/)
+Created by: [Jason Schwarz | LinkedIn](https://www.linkedin.com/in/jason-schwarz-75b91482/)
 
 Project Link: [https://github.com/passandscore/wiki-project](https://github.com/passandscore/wiki-project)
