@@ -9,7 +9,7 @@
 </p>
 
 
-Implemented a CRUD based Web application (SPA) that stores text baased articles related to coding and programming languages. The application stores users and articles. If you are a guest user, then you are limited to view only access. User features include registration, login, logout, create, read, update and delete. All user authentication is handled on the server-side.
+Implemented a CRUD based Web application (SPA) that stores text based articles. The application stores users and articles. If you are a guest user, then you are limited to view only access. User features include registration, login, logout, create, read, update and delete. All user authentication is handled on the server-side.
 
 
 ### Built With
