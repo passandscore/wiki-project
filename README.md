@@ -1,4 +1,5 @@
 # Wiki - Single Page (CRUD) Application
+[View Website Here](https://king-wiki.herokuapp.com/)
 
 
 <p align=”center”>
@@ -52,7 +53,7 @@ I was able to take my knowlegde of CRUD applications and replicate a wiki page. 
    ```
 3. Run Dev Server
    ```sh
-   npm start
+   npm run-script start-dev
    ```
 
 <!-- CONTRIBUTING -->
