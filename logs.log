@@ -345,3 +345,12 @@
 [0mGET /favicon.ico [32m200[0m 4.702 ms - 1826[0m
 [0mGET / [32m200[0m 71.681 ms - 2287[0m
 [0mGET / [32m200[0m 104.239 ms - 3948[0m
+[0mGET / [32m200[0m 150.254 ms - 3842[0m
+[0mGET /?search=ex [32m200[0m 117.494 ms - 3842[0m
+[0mGET /?search=ex [32m200[0m 140.940 ms - 3006[0m
+[0mGET /?search=ex [36m304[0m 114.466 ms - -[0m
+[0mGET /?search=%40 [36m302[0m 90.450 ms - 46[0m
+[0mGET / [32m200[0m 64.875 ms - 3894[0m
+[0mGET /?search=ex [32m200[0m 129.860 ms - 2101[0m
+[0mGET /?search=java [32m200[0m 101.289 ms - 2337[0m
+[0mGET /article/Java. [32m200[0m 66.369 ms - 4836[0m
